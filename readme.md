@@ -2,7 +2,7 @@
 
 Plays cat noises!
 
-## CLI
+## Install
 
 ```sh
 npm install -g playcatnoise-cli
