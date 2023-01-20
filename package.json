@@ -1,0 +1,39 @@
+{
+	"name": "playcatnoise-cli",
+	"version": "0.0.0",
+	"description": "Play cat noises!",
+	"license": "MIT",
+	"repository": "SpaceGiraffe-io/playcatnoise-cli",
+	"author": {
+		"name": "SpaceGiraffe, LLC",
+		"url": "https://spacegiraffe.io"
+	},
+	"type": "module",
+	"bin": {
+		"playcatnoise": "cli.js"
+	},
+	"engines": {
+		"node": ">=14.16"
+	},
+	"scripts": {
+		"test": "xo && nyc ava"
+	},
+	"files": [
+		"index.js",
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		""
+	],
+	"dependencies": {
+		"audic": "^3.0.1",
+		"meow": "^10.1.3"
+	},
+	"devDependencies": {
+		"ava": "^4.3.1",
+		"nyc": "^15.1.0",
+		"xo": "^0.51.0"
+	}
+}
