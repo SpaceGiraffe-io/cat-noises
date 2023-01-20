@@ -3,18 +3,18 @@ import meow from 'meow';
 import playCatNoise from './index.js';
 
 const cli = meow(`
-	Usage
-	  $ playcatnoise
+  Usage
+    $ playcatnoise
 
-	Options
-	  None!
+  Options
+    None!
 
-	Examples
-	  $ playcatnoise
-		<plays a cat noise>
+  Examples
+    $ playcatnoise
+    <plays a cat noise>
 `, {
-	importMeta: import.meta,
-	flags: {}
+  importMeta: import.meta,
+  flags: {}
 });
 
 (function main() {
