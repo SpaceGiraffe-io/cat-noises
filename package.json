@@ -1,6 +1,6 @@
 {
 	"name": "playcatnoise-cli",
-	"version": "1.0.1",
+	"version": "1.0.3",
 	"description": "Play cat noises!",
 	"license": "MIT",
 	"repository": "SpaceGiraffe-io/playcatnoise-cli",
@@ -17,6 +17,8 @@
 	},
 	"scripts": {
 		"test": "xo && nyc ava",
+		"link": "npm link --local playcatnoise-cli",
+		"unlink": "npm uninstall -g playcatnoise-cli",
 		"publish": "npm publish --access public"
 	},
 	"files": [
