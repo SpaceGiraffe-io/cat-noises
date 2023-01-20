@@ -1,6 +1,6 @@
 # playcatnoise-cli
 
-Plays cat noises!
+Play cat noises!
 
 ## Install
 
