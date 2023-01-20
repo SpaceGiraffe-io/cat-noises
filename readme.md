@@ -1,6 +1,6 @@
 # playcatnoise-cli
 
-> Plays cat noises!
+Plays cat noises!
 
 ## CLI
 
@@ -11,7 +11,7 @@ npm install -g playcatnoise-cli
 Then play a cat noise!
 
 ```sh
-playcatnoise
+$ playcatnoise
 ```
 
 (On Windows you might have to allow VLC the first time you run it)
@@ -30,7 +30,7 @@ Call it!
 import playCatNoise from 'playcatnoise-cli';
 
 playCatNoise();
-//=> <plays a cat noise>
+// <plays a cat noise>
 ```
 
 ## Contributing
