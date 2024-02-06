@@ -1,37 +1,38 @@
-# playcatnoise-cli
+# cat-noises
 
-Play cat noises!
+Add cat noises to your app!
 
 ## Install
 
 ```sh
-npm install -g playcatnoise-cli
+npm install --save cat-noises
 ```
 
-Then play a cat noise!
+Or to install the CLI:
 
 ```sh
-$ playcatnoise
+npm install -g cat-noises
 ```
-
-(On Windows you might have to allow VLC the first time you run it)
 
 ## API
-
-You can also install it lool!
-
-```sh
-npm install --save playcatnoise-cli
-```
 
 Call it!
 
 ```js
-import playCatNoise from 'playcatnoise-cli';
+import catNoise from 'cat-noises';
 
-playCatNoise();
-// <plays a cat noise>
+catNoise(); // <plays a cat noise>
 ```
+
+## CLI
+
+Play a cat noise!
+
+```sh
+$ catnoise
+```
+
+(On Windows you might have to allow VLC the first time you run it)
 
 ## Contributing
 

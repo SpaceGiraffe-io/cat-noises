@@ -1,13 +1,13 @@
 import test from 'ava';
-import playcatnoiseCli from './index.js';
+import catnoiseCli from './index.js';
 
 test('title', t => {
   t.throws(() => {
-    playcatnoiseCli(123);
+    catnoiseCli(123);
   }, {
     instanceOf: TypeError,
     message: 'Expected a string, got number',
   });
 
-  t.is(playcatnoiseCli('unicorns'), 'unicorns & rainbows');
+  t.is(catnoiseCli('unicorns'), 'unicorns & rainbows');
 });

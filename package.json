@@ -1,24 +1,24 @@
 {
-	"name": "playcatnoise-cli",
-	"version": "1.0.3",
-	"description": "Play cat noises!",
+	"name": "cat-noises",
+	"version": "2.0.0",
+	"description": "Cat noises!",
 	"license": "MIT",
-	"repository": "SpaceGiraffe-io/playcatnoise-cli",
+	"repository": "SpaceGiraffe-io/cat-noises",
 	"author": {
 		"name": "SpaceGiraffe, LLC",
 		"url": "https://spacegiraffe.io"
 	},
 	"type": "module",
 	"bin": {
-		"playcatnoise": "cli.js"
+		"catnoise": "cli.js"
 	},
 	"engines": {
 		"node": ">=14.16"
 	},
 	"scripts": {
 		"test": "xo && nyc ava",
-		"link": "npm link --local playcatnoise-cli",
-		"unlink": "npm uninstall -g playcatnoise-cli",
+		"link": "npm link --local cat-noises",
+		"unlink": "npm uninstall -g cat-noises",
 		"publish": "npm publish --access public"
 	},
 	"files": [

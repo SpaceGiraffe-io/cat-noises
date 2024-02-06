@@ -1,16 +1,16 @@
 #!/usr/bin/env node
 import meow from 'meow';
-import playCatNoise from './index.js';
+import catNoise from './index.js';
 
 const cli = meow(`
   Usage
-    $ playcatnoise
+    $ catnoise
 
   Options
     None!
 
   Examples
-    $ playcatnoise
+    $ catnoise
     <plays a cat noise>
 `, {
   importMeta: import.meta,
@@ -18,6 +18,6 @@ const cli = meow(`
 });
 
 (function main() {
-  playCatNoise();
+  catNoise();
 })();
 
